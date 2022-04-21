@@ -4,19 +4,19 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 0;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,31 +28,48 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  const respuesta = str;
+  return respuesta;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  const x = x;
+  const y = y;
+  const respuesta = x + y;
+  return respuesta;
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  const x = x;
+  const y = y;
+  const respuesta = x - y;
+  return respuesta;
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  const x = x;
+  const y = y;
+  const respuesta = x * y;
+  return respuesta;
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  const x = x;
+  const y = y;
+  const respuesta = x / y;
+  return respuesta;
   
 }
 
@@ -60,6 +77,15 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+  const x = x;
+  const y = y;
+  let respuesta;
+  if(x === y){
+    respuesta = true;
+  }else{
+    respuesta = false;
+  }
+  return respuesta;
   
 }
 
@@ -67,6 +93,15 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  const str1 = str1;
+  const str2 = str2;
+  let respuesta;
+  if(str1.length === str2.length){
+    respuesta = true;
+  }else{
+    respuesta = false;
+  }
+  return respuesta;
   
 }
 
@@ -74,6 +109,14 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  const num = num;
+  let respuesta;
+  if(num < 90){
+    respuesta = true;
+  }else{
+    respuesta = false;
+  }
+  return respuesta;
   
 }
 
@@ -81,12 +124,24 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  const num = num;
+  let respuesta;
+  if(num > 50){
+    respuesta = true;
+  }else{
+    respuesta = false;
+  }
+  return respuesta;
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  const x = x;
+  const y = y;
+  const respuesta = x % y;
+  return respuesta;
   
 }
 
@@ -94,6 +149,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  const num = num;
+  let respuesta;
+  if(num % 2 == 0){
+    respuesta = true;
+  }else{
+    respuesta = false;
+  }
+  return respuesta
   
 }
 
@@ -101,6 +164,14 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+  const num = num;
+  let respuesta;
+  if(num % 2 == 1){
+    respuesta = true;
+  }else{
+    respuesta = false;
+  }
+  return respuesta
   
 }
 
@@ -108,24 +179,37 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  const num = num;
+  const respuesta = num ^ 2;
+  return respuesta;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  const num = num;
+  const respuesta = num ^ 3;
+  return respuesta;
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  const num = num;
+  const exponent = exponent;
+  const respuesta = num ^ exponent;
+  return respuesta;
   
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  const num = num;
+  const respuesta = Math.round(num);
+  return respuesta;
   
 }
 
