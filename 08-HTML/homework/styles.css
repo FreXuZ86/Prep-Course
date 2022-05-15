@@ -1,0 +1,30 @@
+html{
+    background: url("https://img.freepik.com/foto-gratis/ingredientes-cocinar-pasta-sobre-fondo-madera_23-2147925943.jpg?w=2000");
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+h1{
+    color: blue;
+}
+
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background: yellowgreen;
+    padding: 50px;
+    border: 2px solid rebeccapurple;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
